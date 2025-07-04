@@ -17,13 +17,7 @@ CineVerse is a Windows Forms-based desktop application built in C++/CLI as part 
 
 📄 Movie Details & Showtimes
 
-- Upon selection, a detailed page displays:
-
-Movie description
-
-Ratings
-
-Available showtimes
+- Upon selection, a detailed page displays: Movie description, Ratings, Available showtimes.
 
 - Showtimes and seat data are dynamically loaded from Excel files.
 
@@ -39,9 +33,7 @@ Available showtimes
 
 - Booking confirmation saved to Excel.
 
-- Each booking includes:
-
-    Movie name, Time and date, Selected seat(s)
+- Each booking includes: Movie name, Time and date, Selected seat(s).
 
 👤 Profile Page
 
@@ -51,9 +43,7 @@ Available showtimes
 
 📁 Excel-Based Backend Integration
 
-- Uses .xlsx files and OLEDB to handle:
-
-User accounts, Movies, Categories, Showtimes, Bookings, Seat availability
+- Uses .xlsx files and OLEDB to handle: User accounts, Movies, Categories, Showtimes, Bookings, Seat availability
 
 🛠 Technologies Used
 
