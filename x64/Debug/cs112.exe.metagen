@@ -1,0 +1,82 @@
+  cs112.Adaptations.resources - Embedded, ContainedInManifestFile, 
+  cs112.Anime.resources - Embedded, ContainedInManifestFile, 
+  cs112.DC.resources - Embedded, ContainedInManifestFile, 
+  cs112.disney.resources - Embedded, ContainedInManifestFile, 
+  cs112.ExcelManger.resources - Embedded, ContainedInManifestFile, 
+  cs112.homeForm.resources - Embedded, ContainedInManifestFile, 
+  cs112.loginForm.resources - Embedded, ContainedInManifestFile, 
+  cs112.Marvel.resources - Embedded, ContainedInManifestFile, 
+  cs112.MovieDetailForm.resources - Embedded, ContainedInManifestFile, 
+  cs112.profileForm.resources - Embedded, ContainedInManifestFile, 
+  cs112.signinForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly cs112, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Movie: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String name : Public
+    System.String description : Public
+    System.String rate : Public
+    System.String imagePath : Public
+    System.String imagePath2 : Public
+    System.String imagePath3 : Public
+    System.String imagePath4 : Public
+    System.String imagePath5 : Public
+    System.Collections.Generic.List`1[System.String] showtimes : Public
+    Double price : Public
+Class User: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 id : Public
+    System.String username : Public
+    System.String password : Public
+Class cs112.MovieDetailForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Movie, User): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class cs112.Adaptations: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(User, System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class cs112.Anime: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(User, System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class cs112.DC: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(User, System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class cs112.disney: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(User, System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class cs112.loginForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    User user : Public
+    Boolean switchTORegister : Public
+  Methods:
+    Reset(): PrivateScope, Public, HideBySig
+Class cs112.Marvel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(User, System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class cs112.profileForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(User, System.Windows.Forms.Form, cs112.loginForm): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class cs112.homeForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(User, cs112.loginForm): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    homeForm_FormClosing(Object, FormClosingEventArgs): PrivateScope, Public, HideBySig
+Class cs112.signinForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    User user : Public

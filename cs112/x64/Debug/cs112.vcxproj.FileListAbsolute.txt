@@ -1,0 +1,13 @@
+C:\Users\elkot\Downloads\cs112\cs112\x64\Debug\cs112.vcxproj.AssemblyReference.cache
+C:\Users\elkot\Downloads\cs112\cs112\x64\Debug\cs112.Adaptations.resources
+C:\Users\elkot\Downloads\cs112\cs112\x64\Debug\cs112.Anime.resources
+C:\Users\elkot\Downloads\cs112\cs112\x64\Debug\cs112.DC.resources
+C:\Users\elkot\Downloads\cs112\cs112\x64\Debug\cs112.disney.resources
+C:\Users\elkot\Downloads\cs112\cs112\x64\Debug\cs112.ExcelManger.resources
+C:\Users\elkot\Downloads\cs112\cs112\x64\Debug\cs112.homeForm.resources
+C:\Users\elkot\Downloads\cs112\cs112\x64\Debug\cs112.loginForm.resources
+C:\Users\elkot\Downloads\cs112\cs112\x64\Debug\cs112.Marvel.resources
+C:\Users\elkot\Downloads\cs112\cs112\x64\Debug\cs112.MovieDetailForm.resources
+C:\Users\elkot\Downloads\cs112\cs112\x64\Debug\cs112.profileForm.resources
+C:\Users\elkot\Downloads\cs112\cs112\x64\Debug\cs112.signinForm.resources
+C:\Users\elkot\Downloads\cs112\cs112\x64\Debug\cs112.vcxproj.GenerateResource.cache
