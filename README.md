@@ -65,27 +65,43 @@ CineVerse is a Windows Forms-based desktop application built in C++/CLI as part 
 
 ## Team Members
 - Dareen Hassan:
+  
   ◦ Built the home, sign-up (signinForm.h), and login (loginForm.h) windows.
+  
   ◦ Managed user data storage in cinema_data.xlsx.
+  
   ◦ Designed a dynamic panel for movie details.
+  
   ◦ Handled the extraction of pictures from the excel files.
   
 - Iren Nabil:
+  
   ◦ Created the category window for selecting movie categories.
+  
   ◦ Implemented a system to display category-specific movies.
   
 - Fatma Eldahahn:
+  
   ◦ Developed the movies window with a dynamic panel.
+  
   ◦ Displayed movie names and posters from Movies.xlsx.
   
 - Mariam Elbadry:
+  
   ◦ Designed and implemented the movie booking window (MovieDetailForm.h).
+  
   ◦ Enabled showtime and seat selection with a 3x5 grid and ticket booking.
+  
   ◦ Extracted movie details from Movies.xlsx.
+  
   ◦ Saved the movie booking infromation into Booking.xlsx
   
 - Mariam Gamal:
+  
   ◦ Developed the user profile window (profileForm.h).
+  
   ◦ Displayed past and upcoming bookings from Booking.xlsx.
+  
   ◦ Created a cancellation system for bookings.
+  
   ◦ Added Features hover effects and custom cursors in UI.
